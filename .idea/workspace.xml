@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/../codes/v2.0/train/models.py" description="get_pretrained_ckpt" line="100" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e70ba05-681e-43ac-8095-a8fac6ca7977" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e70ba05-681e-43ac-8095-a8fac6ca7977" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,6 +261,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="0" width="1600" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
