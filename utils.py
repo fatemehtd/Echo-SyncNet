@@ -349,8 +349,7 @@ def get_indices(curr_idx, num_steps, seq_len):
     return single_steps
 
 
-# TODO(debidatta): Modular and simpler function for embedding datasets
-# with different embedders.
+
 def get_embeddings_dataset(model, iterator, frames_per_batch,
                            keep_data=False, optical_flow=False, keep_labels=True,
                            max_embs=None, callbacks=[]):

@@ -2,14 +2,12 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
-from absl import app
-from absl import flags
 import numpy as np
 import tensorflow as tf
 import os
 import sys
 import argparse
+
 
 from algorithms import get_algo
 from config import CONFIG
@@ -153,6 +151,7 @@ def evaluate(args):
       keep_labels=args.keep_labels,
       max_embs=max_embs)
   np.save(gfile.GFile(args.save_path, 'w'), embeddings)
+  return  embeddings
 
 
 def main(_):
@@ -162,7 +161,7 @@ def main(_):
   CONFIG.update(config)
 
   prepare_gpu(args.gpu)
-  evaluate(args)
+  embeddings = evaluate(args)
 
 
 if __name__ == '__main__':
