@@ -8,6 +8,8 @@ Example synchronization of three unique cardiac view angles.
 ___
 Echo-SyncNet is trained on a dataset of 3070 unannotated echo studies. We use a multiobjective self supervised loss, described in detail in our paper, to promote the consistency of embedding features across multiple tranining samples.
 
+## Notebook Demo: Coming Soon!
+
 
 
 
