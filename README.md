@@ -1,3 +1,3 @@
 # Echo-SyncNet
 
-![](resources/annotated-sync.gif)
+![](resources/4view-sync.gif)
