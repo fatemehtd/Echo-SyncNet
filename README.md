@@ -14,7 +14,7 @@ For each view, we show trajectories of the cines in the embedding space. Using a
 
 
 *Example synchronization of four synched cines captured from AP4, AP2, AP5, and PLAX views along with their trajectories in the  embedding space.
-![](resources/4 View Cardiac Sync.gif)
+![](resources/4view-sync.gif)
 
 **The need for automatic echo synchronization:**
 * Calculation of clinical measurements in cardiac echo often require or benefit from having multiple synchronized views or accurately annotated keyframes.
