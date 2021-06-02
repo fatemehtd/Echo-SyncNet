@@ -9,12 +9,16 @@ For each view, we show trajectories of the cines in the embedding space. Using a
 ![](resources/plax-ap4.gif)
 
 
-*Example synchronization of three unique cardiac view angles, AP4, AP2, and PLAX, along with their trajectories in the  embedding space. *
+*Example synchronization of three unique cardiac view angles, AP4, AP2, and PLAX, along with their trajectories in the  embedding space. 
 ![](resources/ap2ap4plax-sync.gif)
 
 
-*Example synchronization of four synched cines captured from AP4, AP2, AP5, and PLAX views along with their trajectories in the  embedding space.
+*Example synchronization of four synched cines captured from AP4, AP2, AP5, and PLAX views along with their trajectories in the embedding space. In this example, the generalizibility of the method even in the views not found in the training set can be observed.
 ![](resources/4view-sync.gif)
+
+*Example synchronization of cines captured from AP4 and AP2 views along with their trajectories in the  embedding space. This experiment shows the robustness of the proposed synchronization method to different frame rates. We first produce downsampled versions of both cines at one-half and one-quarter of their original frame rate. Next, we create embeddings and perform synchronization using various combinations of original, half sampled and quarter sampled pairs. 
+![](resources/fr_sync_1.gif)
+
 
 **The need for automatic echo synchronization:**
 * Calculation of clinical measurements in cardiac echo often require or benefit from having multiple synchronized views or accurately annotated keyframes.
