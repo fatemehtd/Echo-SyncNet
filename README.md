@@ -1,6 +1,11 @@
 # Echo-SyncNet:
 ### A Neural Network for Synchronization of Cardiac Echo
 
+*Example synchronization of two perpendicular views, AP4 and AP2. 
+![](resources/ap4-ap2.gif)
+For each view, we show trajectories of the cines in the embedding space. Using a principal component analysis reduction approach, we reduce the dimensionality of the embedding from 128 to 1 for visualization. We examine the synchronization of an AP4 and AP2 echo cine by comparing three distinct cardiac events: the earliest opening of the mitral valve, the maximum contraction of the left ventricle and the earliest closing of the mitral valve.
+
+
 *Example synchronization of three unique cardiac view angles.*
 ![](resources/ap2ap4plax-sync.gif)
 
